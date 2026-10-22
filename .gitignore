@@ -1,0 +1,33 @@
+# Environments
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary and checkpoint data
+*.tmp
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local databases
+history_store/*.db
+!history_store/.gitkeep
+
+# Raw dataset downloads and large archives
+data_store/raw/*.zip
+data_store/raw/*.gz
+data_store/raw/*.tar.gz
+data_store/raw/*.mat
+
+# Uploaded scratch images
+*.png_temp*
+*.jpg_temp*
+
+# OS specific
+.DS_Store
+Thumbs.db
+
